@@ -1,0 +1,85 @@
+body{
+    background-color: #c8c4b6;
+}
+
+.center-block {
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+
+.center-inline{
+    text-align: center;
+}
+
+.header-text{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.button-style{
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;;
+}
+
+.content-text-box{
+    margin-top: 50px;
+}
+
+.content-shown{
+    display: block;
+}
+
+.content-hidden{
+    display: none;
+}
+
+.clicked{
+    background-color: rgb(133, 133, 214);
+    color: white;
+    transition: 0.5s;
+}
+
+.content-text-box{
+    margin: auto;
+    width: 35%;
+}
+
+.info-header{
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.info-text{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.list-i{
+    text-align: left;
+}
+
+.center-list{
+    margin-left: 15%;
+}
+@media screen and (max-width: 550px){
+    .media-button{
+        margin: auto;
+        display: block;
+    }
+
+    .button-style{
+        width: 200px;
+        margin-top: 10px;
+    }
+}
